@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+
+.box {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1_text {
+    position: relative;
+    top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+p {
+    font-weight: 00;
+}
+
+input {
+    box-sizing: border-box;
+    background: none;
+    width: 55%;
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+input::after {
+    border: 2px solid #000000;
+}
+
+button {
+    box-sizing: border-box;
+    color: white;
+    width: 30%;
+    height: 35px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 35%;
+}
+
+.line {
+    position: relative;
+    width: 90%;
+    margin: 20px;
+    border: 0.1px solid #000000;
+    background-color: #000000;
+}
+.addition {
+    position: relative;
+  transition: 0.5s;
+  }
+.addition:hover{
+    text-decoration: underline;
+}
+  
+
+@media screen and (max-width: 900px) {
+	.box{
+        height: 300px;
+        left:25%;
+        top:55%;
+
+    }
+}
